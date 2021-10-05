@@ -52,7 +52,14 @@
       ]
     },
     "stb",
-    "yaml-cpp"
+    "yaml-cpp",
+    {
+      "name": "magnum",
+      "features": [
+        "gl",
+        "sdl2application"
+      ]
+    }
   ],
   "overrides": [
     {

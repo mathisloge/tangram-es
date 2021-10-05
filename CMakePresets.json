@@ -47,7 +47,8 @@
             },
             "cacheVariables": {
                 "CMAKE_C_COMPILER": "cl",
-                "CMAKE_CXX_COMPILER": "cl"
+                "CMAKE_CXX_COMPILER": "cl",
+                "TANGRAM_PLATFORM":"magnum"
             },
             "vendor": {
                 "microsoft.com/VisualStudioSettings/CMake/1.0": {

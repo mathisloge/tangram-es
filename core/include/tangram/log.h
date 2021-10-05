@@ -27,7 +27,7 @@ static constexpr const char * past_last_slash(const char * const str) {
     return past_last_slash(str, str);
 }
 
-#ifdef TANGRAM_WINDOWS
+#ifdef TANGRAM_MAGNUM
 #define __FILENAME__ __FILE__
 #else
 #define __FILENAME__ ({constexpr const char * const sf__ {past_last_slash(__FILE__)}; sf__;})

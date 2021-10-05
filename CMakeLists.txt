@@ -18,7 +18,7 @@ if (VCPKG_TARGET_ANDROID)
   include("cmake/vcpkg_android.cmake")
 endif()
 
-project(tangram)
+project(tangram VERSION 0.16.2)
 
 # Options
 option(TANGRAM_USE_JSCORE "Use system libraries for JavaScriptCore and enable it on iOS and macOS" OFF)
